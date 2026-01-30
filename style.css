@@ -150,4 +150,42 @@ footer {
   text-align: center;
   padding: 15px;
   margin-top: 40px;
+
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container, .content, .main, .section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  .row, .flex {
+    flex-direction: column;
+  }
 }
